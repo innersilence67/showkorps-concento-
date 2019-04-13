@@ -1,0 +1,154 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 200px;
+    background-color: #bb1414;
+    color: #000000;
+}
+
+/*
+navigation bar (menu) */
+
+
+.section-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 150px;
+}
+
+.logo {
+    height: 150px;
+    width: 350px;
+    position:absolute; 
+    display: inline-block;
+    padding: 0px;
+    margin: 18px;
+
+}
+
+img {
+    display: inline-block;
+}
+
+.topnav  {
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    border-bottom: solid 4px #000000
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: right;
+    
+    padding: 0 0.7em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.menu-bar-right {
+    float: right;
+}
+
+#boeking {
+    border: solid 2px #bb1414;
+    border-radius: 5px;
+}
+
+.topnav li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 40px 10px;
+    margin-top: 80px;
+    padding: 0;
+}
+
+.topnav a {
+    position: relative;
+    display: inline-block;
+}
+
+.topnav a:before {
+    position: absolute;
+    content: '';
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    opacity: 0;
+    left: 15%;
+    right: 15%;
+    top: 0%;
+    bottom: 0%;
+    border-left: 3px solid #bb1414;
+    border-right: 3px solid #bb1414;
+}
+
+.topnav a:hover {
+    color: #bb1414;
+}
+
+.topnav a:hover:before, .topnav .current a:before {
+    opacity: 1;
+    left: 0;
+    right: 0;
+}
+
+/* end navigationbar (menu) */
+
+
+
+/* photo's slider*/
+
+.section-foto {
+    display: block;
+}
+
+.main-foto {
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+/*admin panel*/
+
+.grid-container {
+    display:grid;
+    width:100%;
+    grid-template-columns: 100px 1fr;
+    height: 100px;
+}
+
+
+
+.gray-background-panel {
+    /*width: 50%;
+    height:50%;
+    */background-color:gray;
+    /*background-position: 50% 50%;
+    z-index: 5;
+    */
+}
+
+.grid-background-main {
+    background-color: white
+}
+
+
+
