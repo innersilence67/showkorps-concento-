@@ -13,50 +13,89 @@
 </head>
 
 <body>
-    <!--menu nav-->
-    <div class="section-navbar">
-        <nav class="topnav">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img class="logo" src="logo-concento.jpg" alt="logo concento" href="#logo">
+
+    <div class="section-container">
+
+
+        <!--menu nav-->
+
+        <div class="section-navbar">
+
+            <nav class="topnav">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="logo" src="logo-concento.jpg" alt="logo concento" href="#logo">
+                    </div>
+                    <div class="col-sm-8">
+                        <ul class="menu-bar-right">
+                            <li><a href="#over ons">Over Ons</a></li>
+                            <li><a href="#nieuws">Nieuws</a></li>
+                            <li><a href="#agenda">Agenda</a></li>
+                            <li><a href="#boeking-form" id="boeking">Boeking</a></li>
+                            <li><a href="#lidworden">Lid Worden</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-sm-8">
-                    <ul class="menu-bar-right">
-                        <li><a href="#over ons">Over Ons</a></li>
-                        <li><a href="#nieuws">Nieuws</a></li>
-                        <li><a href="#agenda">Agenda</a></li>
-                        <li><a href="#boeking" id="boeking">Boeking</a></li>
-                        <li><a href="#lidworden">Lid Worden</a></li>
-                        <li><a href="#contact">Contact</a></li>
+            </nav>
+        </div>
+
+
+
+
+        <!--admin panel-->
+
+        <div class="section-panel">
+
+            <div class="admin-panel">
+                <h1>Welkom op de inlogpagina! Typ je gebruikersnaam en wachtwoord.</h1>
+                <form>
+                    <div class="login-field">
+                        <label for="username">Gebruikersnaam</label>
+                        <input type="text" id="username" name="username">
+                        <label for="password">Wachtwoord</label>
+                        <input type="password" id="password" name="password">
+                        <input type="submit" value="Inloggen" id="login-button">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!--footer-->
+
+    <footer class="section-footer">
+
+        <div class="footer-container">
+            <div class="footer-info">
+                <h2>Bezoekadres:</h2>
+                <p> Markendaalseweg 75 <br>
+                    4811 KB Breda <br>
+                    Nederland </p>
+            </div>
+            <div class="footer-post">
+                <h2>Correspondentieadres:</h2>
+                <p> Randoord 23 <br>
+                    4824 JG Breda <br>
+                    Nederland</p>
+            </div>
+            <div class="footer-free-space"></div>
+            <div class="footer-divider">
+                <div class="footer-terms-and-conditions">
+                    <h2>Algemene Voorwaarden</h2>
+                    @COPYRIGHT SHOWKORPS CONCENTO
+                </div>
+                <div class="footer-admin-panel">
+                    <h2 id="panel-button">Admin Panel</h2>
                 </div>
             </div>
-    </div>
-    </nav>
-
-
-    <!--admin panel-->
-
-    <div class="grid-container">
-       
-            <div class="grid-background-main">
-            </div>
-
-            <div class="gray-background-panel">
-            </div>
-
+        </div>
+    </footer>
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
 </body>
 
 </html>

@@ -3,11 +3,16 @@ body {
     margin-top: 200px;
     background-color: #bb1414;
     color: #000000;
+    height: 100%;
+}
+
+.section-container {
+    min-width: 100%;
+    min-height: 100%;
 }
 
 /*
 navigation bar (menu) */
-
 
 .section-navbar {
     position: fixed;
@@ -19,18 +24,17 @@ navigation bar (menu) */
 .logo {
     height: 150px;
     width: 350px;
-    position:absolute; 
+    position: absolute;
     display: inline-block;
     padding: 0px;
     margin: 18px;
-
 }
 
 img {
     display: inline-block;
 }
 
-.topnav  {
+.topnav {
     background-color: white;
     overflow: hidden;
     position: fixed;
@@ -49,7 +53,6 @@ ul {
     float: left;
     color: #000000;
     text-align: right;
-    
     padding: 0 0.7em;
     text-decoration: none;
     text-transform: uppercase;
@@ -62,7 +65,7 @@ ul {
 }
 
 #boeking {
-    border: solid 2px #bb1414;
+    border: 2px solid #bb1414;
     border-radius: 5px;
 }
 
@@ -103,14 +106,21 @@ ul {
     right: 0;
 }
 
+.topnav li a:hover::after {
+    position: absolute;
+    margin: 40px 10px;
+    margin-top: 80px;
+    padding: 0;
+}
+
 /* end navigationbar (menu) */
-
-
 
 /* photo's slider*/
 
 .section-foto {
     display: block;
+    width: auto;
+    height: auto;
 }
 
 .main-foto {
@@ -123,32 +133,128 @@ ul {
 
 
 
-
-
-
 /*admin panel*/
 
-.grid-container {
-    display:grid;
+.section-panel {
+    width: 100%;
+    height: 100%;
+}
+
+.admin-panel {
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    margin: 50px auto;
+    padding: 55px 0 0;
+    -webkit-box-shadow: 0 0 2px #000000;
+    -moz-box-shadow: 0 0 2px #000000;
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-field {
+    display: grid;
+    border: 2px solid #000000;
+    margin: 50px;
+    justify-items: center;
+   
+}
+
+label {
+    display: block;
+    text-align: center;
+    width: 150px;
+    padding:20px;
+    padding-bottom:5px;
+    color: #000000;
+    font-size: 16px;
+    
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid #000000;
+    border-radius: 3px;
+    background: #f1eded;
+}
+
+#login-button {
+    width: 110px;
+    padding: 10px 20px;
+    border: 2px solid #bb1414;
+    border-radius: 3px;
+    color: white;
+    background: #bb1414;
+    text-transform: uppercase;
+    position: relative;    
+}
+
+
+
+/*footer*/
+
+.section-footer {
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    border-top: solid 4px #000000;
+    position: absolute;
+    bottom:0;
+}
+
+.footer-container {
+    display:flex;
+    flex-direction: row;
+    flex-grow: 2;
+    justify-content: space-between;
+    height: 150px;
     width:100%;
-    grid-template-columns: 100px 1fr;
-    height: 100px;
 }
 
+h2 {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
 
-
-.gray-background-panel {
-    /*width: 50%;
-    height:50%;
-    */background-color:gray;
-    /*background-position: 50% 50%;
-    z-index: 5;
-    */
 }
 
-.grid-background-main {
-    background-color: white
+p {
+    font-size: 14px;
+    font-weight:400px;
+    text-align: left;
 }
 
+.footer-info {
+ 
+}
 
+.footer-post {
 
+}
+
+.footer-divider {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-terms-and-conditions {
+
+}
+
+.footer-admin-panel {
+    
+}
+
+#panel-button {
+    border: 2px solid #bb1414;
+    border-radius: 2px;
+}
