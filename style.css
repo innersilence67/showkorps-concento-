@@ -141,13 +141,19 @@ ul {
 .banner {
     width: auto;
     height: 100px;
-    background-color: #f8c10e;
+    background-color: white;
     border-top: 7px #000000 solid;
     border-bottom: 7px #000000 solid;
     margin-bottom: 50px;
 }
 
+.follow-us {
+    width: auto;
+    height: 100px;
+}
+
 h3 {
+    margin-top: 7px;
     font-size: 35px;
     font-weight: 900;
     text-transform: uppercase;
