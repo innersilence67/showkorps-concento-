@@ -45,9 +45,8 @@
 
         <div class="section-panel">
 
-            <div class="admin-panel">
-
-                <div class="admin-panel-menu">
+            <div class="admin-panel-choicemenu">
+                <div class="admin-panel-menu menu-up">
                     <ul>
                         <li><a href="#over ons-panel">OVER ONS</a></li>
                         <li><a href="#nieuws-panel">NIEUWS</a></li>
@@ -56,8 +55,15 @@
                         <li><a href="#contact">CONTACT</a></li>
                     </ul>
 
-                    <p>Welkom Admin!</p>
-                    <p>Kies een categorie om de informatie bij te werken</p>
+                    <div class="form-group red-border">
+                        <label for="text-form">Jouw text</label>
+                        <textarea class="form-control z-depth-1" id="text-form" placeholder="Typ wat in..." rows="8"></textarea>
+                        <button type="button" class="btn btn-outline-danger button-left">+ Voeg een foto toe</button>
+                        <button type="button" class="btn btn-warning btn-primary button-right">Opslaan</button>
+                        <button type="button" class="btn btn-outline-dark button-down">+ Extra textvak</button>
+                    </div>
+
+
 
                 </div>
             </div>

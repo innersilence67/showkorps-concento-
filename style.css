@@ -5,6 +5,8 @@ body {
     color: #000000;
     height: 100%;
     font-size: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
 .section-container {
@@ -116,9 +118,6 @@ ul {
 }
 
 
-/* end navigationbar (menu) */
-
-
 /* photo's slider*/
 
 .section-foto {
@@ -169,7 +168,7 @@ h3 {
 }
 
 
-/*admin panel*/
+/*admin panel - main*/
 
 .section-panel {
     width: 100%;
@@ -231,6 +230,9 @@ input {
     position: relative;
 }
 
+
+/*admin panel - welkom */
+
 .admin-panel p {
     font-size: 1.5625rem;
     text-align: center;
@@ -239,12 +241,12 @@ input {
 
 .admin-panel-menu ul {
     list-style-type: none;
-    margin: 0 auto;
     padding: 0;
     overflow: hidden;
     background-color: #f8c10e;
-    border: 2px solid #000000;
-    margin: 100px auto;
+    border: 0.090em solid #000000;
+    position: inherit;
+    margin-bottom: 2em;
 }
 
 .admin-panel-menu li a {
@@ -253,7 +255,7 @@ input {
     text-align: center;
     padding: 1.250em;
     text-decoration: none;
-    border: 0.125em solid #000000;
+    border: 0.090em solid #000000;
 }
 
 .admin-panel-menu li {
@@ -262,6 +264,75 @@ input {
 
 .admin-panel-menu li a:hover {
     background-color: #111111;
+}
+
+
+/*admin panel - "over ons"*/
+
+.admin-panel-choicemenu {
+    background-color: white;
+    width: 70rem;
+    height: 50rem;
+    margin: 0.7rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.admin-panel-choicemenu ul {
+    overflow: hidden;
+    margin: 0 10rem auto 17rem;
+    display: inline-block;
+}
+
+.menu-up {
+    margin-top: -12em;
+}
+
+.form-group {
+    width: 50%;
+    height: 20rem;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: inline-block;
+}
+
+.form-group label {
+    font-size: 1.2em;
+    margin: auto;
+}
+
+textarea {
+    overflow: auto;
+}
+
+.red-border textarea {
+    border: 0.1rem solid #000000;
+}
+
+.red-border .form-control:focus {
+    border: 0.063em solid #f8c10e;
+    box-shadow: 0 0 0 0.125em rgba(255, 212, 22, 0.815);
+}
+
+.btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+.button-left {
+    float: left;
+}
+
+.button-right {
+    float: right;
+}
+
+.button-down {
+    margin-top: 8em;
 }
 
 
@@ -290,7 +361,7 @@ h2 {
     font-weight: 600;
     text-transform: uppercase;
     text-align: left;
-    margin-top: 0.5rem;
+    margin-top: 0.75rem;
 }
 
 p {
