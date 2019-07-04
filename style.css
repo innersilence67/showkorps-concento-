@@ -1,6 +1,5 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    margin-top: 200px;
     background-color: #bb1414;
     color: #000000;
     height: 100%;
@@ -18,7 +17,6 @@ body {
 /*navigation bar (menu) */
 
 .section-navbar {
-    position: fixed;
     top: 0;
     width: 100%;
     height: 9.375em;
@@ -178,7 +176,6 @@ h3 {
 .admin-panel {
     background-color: white;
     width: 50rem;
-    height: 31.25rem;
     margin: 3.125rem auto;
     padding: 3.4375rem 0 0;
     -webkit-box-shadow: 0 0 0.125em #000000;
@@ -272,7 +269,6 @@ input {
 .admin-panel-choicemenu {
     background-color: white;
     width: 70rem;
-    height: 50rem;
     margin: 0.7rem auto;
     display: flex;
     flex-direction: column;
@@ -286,7 +282,7 @@ input {
 }
 
 .menu-up {
-    margin-top: -12em;
+    margin-top: 3em;
 }
 
 .form-group {
@@ -323,16 +319,12 @@ textarea {
     margin-top: 1em;
 }
 
-.button-left {
+#button-left {
     float: left;
 }
 
-.button-right {
+#button-right {
     float: right;
-}
-
-.button-down {
-    margin-top: 8em;
 }
 
 
