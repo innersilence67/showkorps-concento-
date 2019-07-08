@@ -53,13 +53,49 @@
                         <li><a href="#lid worden-panel">LID WORDEN</a></li>
                         <li><a href="#contact">CONTACT</a></li>
                     </ul>
+                </div>
 
-                    <div class="form-group red-border">
-                        <label for="text-form">Jouw text</label>
-                        <textarea class="form-control z-depth-1" id="text-form" placeholder="Typ wat in..." rows="10"></textarea>
-                        <button type="button" class="btn btn-outline-danger" id="button-left">+ Voeg een foto toe</button>
-                        <button type="button" class="btn btn-warning btn-primary" id="button-right">Opslaan</button>
+                <div class="container-center-agenda">
+                    <div class="container-agenda">
+                        <form>
+                            <div>
+                                <label for="agenda">Datum:</label>
+                                <input type="date" id="agenda-form" name="agenda-form" value='' min="2019-01-01" max="2099-12-31">
+                            </div>
+                            <div>
+                                <label for="event">Evenement:</label>
+                                <input type="text" id="event" name="evenement">
+                            </div>
+                            <div>
+                                <label for="city">Stad:</label>
+                                <input type="text" id="city" name="city">
+                            </div>
+                            <div>
+                                <label for="country">Land:</label>
+                                <input type="text" id="country" name="country">
+                            </div>
+                        </form>
+                        <div class="agenda-list">
+                            <table>
+                                <tr>
+                                    <th>Evenement1</th>
+                                </tr>
+                                <tr>
+                                    <th>Evenement2</th>
+                                </tr>
+                                <tr>
+                                    <th>Evenement3</th>
+                                </tr>
+                                <tr>
+                                    <th>Evenement4</th>
+                                </tr>
+                                <tr>
+                                    <th>Evenement5</th>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
+                    <button type="button" class="btn btn-warning btn-primary" id="button-right">Voeg evenement toe</button>
                 </div>
             </div>
         </div>

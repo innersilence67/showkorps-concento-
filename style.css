@@ -242,7 +242,7 @@ input {
     overflow: hidden;
     background-color: #f8c10e;
     border: 0.090em solid #000000;
-    position: inherit;
+    position: relative;
     margin-bottom: 2em;
 }
 
@@ -272,12 +272,12 @@ input {
     margin: 0.7rem auto;
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
 }
 
 .admin-panel-choicemenu ul {
     overflow: hidden;
-    margin: 0 10rem auto 17rem;
+    margin: 0 10rem auto 13rem;
     display: inline-block;
 }
 
@@ -321,10 +321,56 @@ textarea {
 
 #button-left {
     float: left;
+    margin-bottom: 2em;
 }
 
 #button-right {
     float: right;
+    margin-bottom: 2em;
+}
+
+
+/*admin-panel "nieuws"*/
+
+.container-center-form {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5em;
+}
+
+#titel-form {
+    resize: none;
+    margin-bottom: 1em;
+}
+
+#form-left {
+    display: inline-block;
+    margin: auto;
+}
+
+.nieuws-table {
+    display: inline-block;
+    margin: auto;
+}
+
+
+/*admin-panel "agenda"*/
+
+.container-agenda {
+    margin: auto;
+    border: 0.125em solid #000000;
+    border-radius: 0.5em;
+}
+
+.container-center-agenda {}
+
+.container-agenda label {
+    display: inline-block;
+}
+
+.admin-panel-choicemenu h2 {
+    text-align: center;
+    margin: 1em 0.5em;
 }
 
 
@@ -348,7 +394,7 @@ textarea {
     width: 100%;
 }
 
-h2 {
+.section-footer h2 {
     font-size: 1.125em;
     font-weight: 600;
     text-transform: uppercase;
@@ -356,7 +402,7 @@ h2 {
     margin-top: 0.75rem;
 }
 
-p {
+.section-footer p {
     font-size: 0.875em;
     font-weight: 400px;
     text-align: left;
