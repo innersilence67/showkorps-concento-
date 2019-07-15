@@ -32,7 +32,9 @@ body {
 }
 
 img {
-    display: inline-block;
+    display: block;
+    padding-top: 3em;
+    padding-bottom: 4em;
 }
 
 .topnav {
@@ -253,6 +255,7 @@ input {
     padding: 1.250em;
     text-decoration: none;
     border: 0.090em solid #000000;
+    overflow: hidden;
 }
 
 .admin-panel-menu li {
@@ -261,6 +264,10 @@ input {
 
 .admin-panel-menu li a:hover {
     background-color: #111111;
+}
+
+#footer-down {
+    margin-bottom: 10.5em;
 }
 
 
@@ -288,7 +295,7 @@ input {
 .form-group {
     width: 50%;
     height: 20rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
     position: inline-block;
@@ -317,6 +324,7 @@ textarea {
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 #button-left {
@@ -327,6 +335,10 @@ textarea {
 #button-right {
     float: right;
     margin-bottom: 2em;
+}
+
+#bckg-color {
+    background-color: #bb1414;
 }
 
 
@@ -358,11 +370,16 @@ textarea {
 
 .container-agenda {
     margin: auto;
+    display: inline-block;
     border: 0.125em solid #000000;
     border-radius: 0.5em;
 }
 
-.container-center-agenda {}
+.container-center-agenda {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5em;
+}
 
 .container-agenda label {
     display: inline-block;
@@ -371,6 +388,53 @@ textarea {
 .admin-panel-choicemenu h2 {
     text-align: center;
     margin: 1em 0.5em;
+}
+
+.admin-panel-choicemenu h4 {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.agenda-list {
+    display: inline-block;
+    margin: auto;
+}
+
+
+/*admin-panel "contact"*/
+
+.container-main-adress {
+    margin: auto;
+    display: inline-block;
+    border: 0.125em solid #000000;
+    border-radius: 0.5em;
+}
+
+.container-center-contact {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5em;
+}
+
+.container-second-adress {
+    margin: auto;
+    display: inline-block;
+    border: 0.125em solid #000000;
+    border-radius: 0.5em;
+}
+
+
+/*privacy-policy*/
+
+.admin-panel p {
+    text-align: justify;
+    font-size: 1em;
+    padding: 0.005em;
+    margin: 0.001em;
+}
+
+.admin-panel h2 {
+    margin-bottom: 1em;
 }
 
 
