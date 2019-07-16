@@ -19,7 +19,7 @@ body {
 .section-navbar {
     top: 0;
     width: 100%;
-    height: 9.375em;
+    height: 8.8rem;
 }
 
 .logo {
@@ -40,10 +40,11 @@ img {
 .topnav {
     background-color: white;
     overflow: hidden;
+    z-index: 111;
     position: fixed;
     top: 0;
     width: 100%;
-    height: 9.375em;
+    height: 8.8rem;
     border-bottom: solid 4px #000000
 }
 
@@ -144,7 +145,7 @@ ul {
     background-color: white;
     border-top: 0.438em #000000 solid;
     border-bottom: 0.438em #000000 solid;
-    margin-bottom: 3.125rem;
+    margin-bottom: 5rem;
     display: flex;
     flex-flow: row;
     justify-content: center;
@@ -158,18 +159,10 @@ h3 {
     text-transform: uppercase;
 }
 
-
-/* .socialmedia-buttons img { */
-
-width: 4.5rem;
-height: 4.5rem;
-padding: 0.250em;
-display: inline-block;
-
-}
 .socialmedia-buttons svg {
     justify-content: center;
 }
+
 svg {
     fill: #000000;
     width: 4.5em;
@@ -177,15 +170,93 @@ svg {
     padding: 0.3em;
     margin-top: 0.5em;
 }
+
 svg:hover {
     fill: #bb1414
 }
 
+
+/*recent news*/
+
+.section-news {
+    width: auto;
+    height: 42rem;
+    background-color: whitesmoke;
+    margin-bottom: 6rem;
+}
+
+.news-background {
+    background-color: #d6cece;
+    height: 31rem;
+    width: auto;
+}
+
+#news-header h2 {
+    width: auto;
+    height: 4em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-top: 1.5em;
+}
+
+.recent-news {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.newsbox-one {
+    width: 23em;
+    height: 23em;
+    background-color: #b8afaf;
+    margin: 3em 1em 3em 2em;
+    position: relative;
+    display: inline-block;
+}
+
+.newsbox-two {
+    width: 23em;
+    height: 23em;
+    background-color: #b8afaf;
+    margin: 3em 1em 3em 1em;
+    position: relative;
+    display: inline-block;
+}
+
+.newsbox-three {
+    width: 23em;
+    height: 23em;
+    background-color: #b8afaf;
+    margin: 3em 2em 3em 1em;
+    position: relative;
+    display: inline-block;
+}
+
+#more-news p {
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+#more-news p:hover {
+    color: #bb1414;
+}
+
+#more-news a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
 /*admin panel - main*/
+
 .section-panel {
     width: 100%;
     height: 100%;
 }
+
 .admin-panel {
     background-color: white;
     width: 50rem;
@@ -195,6 +266,7 @@ svg:hover {
     -moz-box-shadow: 0 0 0.125em #000000;
     text-align: center;
 }
+
 h1 {
     color: #000000;
     font-size: 1.438em;
@@ -202,12 +274,14 @@ h1 {
     text-align: center;
     margin-bottom: 1.250em;
 }
+
 .login-field {
     display: grid;
     border: 0.125em solid #000000;
     margin: 3.125rem;
     justify-items: center;
 }
+
 label {
     display: block;
     text-align: center;
@@ -217,6 +291,7 @@ label {
     color: #000000;
     font-size: 1rem;
 }
+
 input {
     margin: 0.625em;
     padding: 0.313em;
@@ -224,6 +299,7 @@ input {
     border-radius: 0.188em;
     background: #f1eded;
 }
+
 #login-button {
     width: 6.875rem;
     padding: 0.625em 1.250em;
@@ -235,12 +311,15 @@ input {
     position: relative;
 }
 
+
 /*admin panel - welkom */
+
 .admin-panel p {
     font-size: 1.5625rem;
     text-align: center;
     font-weight: 500;
 }
+
 .admin-panel-menu ul {
     list-style-type: none;
     padding: 0;
@@ -250,6 +329,7 @@ input {
     position: relative;
     margin-bottom: 2em;
 }
+
 .admin-panel-menu li a {
     display: block;
     color: white;
@@ -259,17 +339,22 @@ input {
     border: 0.090em solid #000000;
     overflow: hidden;
 }
+
 .admin-panel-menu li {
     float: left;
 }
+
 .admin-panel-menu li a:hover {
     background-color: #111111;
 }
+
 #footer-down {
     margin-bottom: 10.5em;
 }
 
+
 /*admin panel - "over ons"*/
+
 .admin-panel-choicemenu {
     background-color: white;
     width: 70rem;
@@ -278,14 +363,17 @@ input {
     flex-direction: column;
     justify-content: center;
 }
+
 .admin-panel-choicemenu ul {
     overflow: hidden;
     margin: 0 10rem auto 13rem;
     display: inline-block;
 }
+
 .menu-up {
     margin-top: 3em;
 }
+
 .form-group {
     width: 50%;
     height: 20rem;
@@ -294,20 +382,25 @@ input {
     margin-right: auto;
     position: inline-block;
 }
+
 .form-group label {
     font-size: 1.2em;
     margin: auto;
 }
+
 textarea {
     overflow: auto;
 }
+
 .red-border textarea {
     border: 0.1rem solid #000000;
 }
+
 .red-border .form-control:focus {
     border: 0.063em solid #f8c10e;
     box-shadow: 0 0 0 0.125em rgba(255, 212, 22, 0.815);
 }
+
 .btn {
     display: block;
     margin-left: auto;
@@ -315,77 +408,96 @@ textarea {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+
 #button-left {
     float: left;
     margin-bottom: 2em;
 }
+
 #button-right {
     float: right;
     margin-bottom: 2em;
 }
+
 #bckg-color {
     background-color: #bb1414;
 }
 
+
 /*admin-panel "nieuws"*/
+
 .container-center-form {
     display: flex;
     flex-direction: row;
     margin-bottom: 5em;
 }
+
 #titel-form {
     resize: none;
     margin-bottom: 1em;
 }
+
 #form-left {
     display: inline-block;
     margin: auto;
 }
+
 .nieuws-table {
     display: inline-block;
     margin: auto;
 }
 
+
 /*admin-panel "agenda"*/
+
 .container-agenda {
     margin: auto;
     display: inline-block;
     border: 0.125em solid #000000;
     border-radius: 0.5em;
 }
+
 .container-center-agenda {
     display: flex;
     flex-direction: row;
     margin-bottom: 5em;
 }
+
 .container-agenda label {
     display: inline-block;
 }
+
 .admin-panel-choicemenu h2 {
     text-align: center;
     margin: 1em 0.5em;
 }
+
 .admin-panel-choicemenu h4 {
     text-align: center;
     font-size: 1.3em;
 }
+
 .agenda-list {
     display: inline-block;
     margin: auto;
 }
 
+
 /*admin-panel "contact"*/
+
 .container-main-adress {
     margin: auto;
     display: inline-block;
     border: 0.125em solid #000000;
     border-radius: 0.5em;
 }
+
 .container-center-contact {
     display: flex;
     flex-direction: row;
     margin-bottom: 5em;
 }
+
 .container-second-adress {
     margin: auto;
     display: inline-block;
@@ -393,7 +505,9 @@ textarea {
     border-radius: 0.5em;
 }
 
+
 /*privacy-policy*/
+
 .privacy-policy {
     background-color: white;
     width: 50rem;
@@ -402,6 +516,7 @@ textarea {
     -webkit-box-shadow: 0 0 0.125em #000000;
     -moz-box-shadow: 0 0 0.125em #000000;
 }
+
 .privacy-policy p {
     text-align: justify;
     font-size: 1em;
@@ -409,31 +524,37 @@ textarea {
     ;
     margin: 0.001em;
 }
+
 .privacy-policy h2 {
     margin-bottom: 1em;
     text-align: center;
 }
+
 h2 a:hover {
     color: #bb1414;
 }
 
+
 /*footer*/
+
 .section-footer {
     background-color: white;
     width: 100%;
-    height: 9.375rem;
+    height: 9rem;
     border-top: solid 0.250em #000000;
     position: relative;
     bottom: 0;
 }
+
 .footer-container {
     display: flex;
     flex-direction: row;
     flex-grow: 2;
     justify-content: space-between;
-    height: 9.375rem;
+    height: 9rem;
     width: 100%;
 }
+
 .section-footer h2 {
     font-size: 1.125em;
     font-weight: 600;
@@ -442,22 +563,27 @@ h2 a:hover {
     margin-top: 0.75rem;
     text-decoration: none;
 }
+
 .section-footer a {
     text-decoration: none;
     color: #000000;
 }
+
 .section-footer p {
     font-size: 0.875em;
     font-weight: 400px;
     text-align: left;
 }
+
 .footer-divider {
     display: flex;
     flex-direction: column;
 }
+
 .footer-terms-and-conditions {
     margin-bottom: 1.875rem;
 }
+
 #panel-button {
     width: fit-content;
     border: 0.125em solid #bb1414;
