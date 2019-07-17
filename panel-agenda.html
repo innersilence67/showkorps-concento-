@@ -55,9 +55,10 @@
                     </ul>
                 </div>
 
-                <h2>Aangevraagde evenementen</h2>
+
                 <div class="container-center-agenda">
                     <div class="container-agenda">
+                        <h2>Aangevraagde evenementen</h2>
                         <form>
                             <div>
                                 <label for="agenda">Datum:</label>
@@ -79,27 +80,49 @@
                         </form>
                     </div>
 
-                    <div class="agenda-list">
-                        <h4>Onlangs toegevoegde evenementen</h4>
-                        <table>
-                            <tr>
-                                <th>Evenement1 link</th>
-                            </tr>
-                            <tr>
-                                <th>Evenement2 link</th>
-                            </tr>
-                            <tr>
-                                <th>Evenement3 link</th>
-                            </tr>
-                            <tr>
-                                <th>Evenement4 link</th>
-                            </tr>
-                            <tr>
-                                <th>Evenement5 link</th>
-                            </tr>
-                        </table>
+                    <div class="container-agenda">
+                        <h2>Definitieve datums</h2>
+                        <form>
+                            <div>
+                                <label for="agenda">Datum:</label>
+                                <input type="date" id="agenda-form" name="agenda-form" value='' min="2019-01-01" max="2099-12-31">
+                            </div>
+                            <div>
+                                <label for="event">Evenement:</label>
+                                <input type="text" id="event" name="evenement">
+                            </div>
+                            <div>
+                                <label for="city">Stad:</label>
+                                <input type="text" id="city" name="city">
+                            </div>
+                            <div>
+                                <label for="country">Land:</label>
+                                <input type="text" id="country" name="country">
+                            </div>
+                            <button type="button" class="btn btn-warning btn-primary">Voeg datum toe</button>
+                        </form>
                     </div>
 
+                </div>
+                <div class="agenda-list">
+                    <h4>Onlangs toegevoegde evenementen</h4>
+                    <table>
+                        <tr>
+                            <th>Evenement1 link</th>
+                        </tr>
+                        <tr>
+                            <th>Evenement2 link</th>
+                        </tr>
+                        <tr>
+                            <th>Evenement3 link</th>
+                        </tr>
+                        <tr>
+                            <th>Evenement4 link</th>
+                        </tr>
+                        <tr>
+                            <th>Evenement5 link</th>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>

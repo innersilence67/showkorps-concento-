@@ -182,11 +182,11 @@ svg:hover {
     width: auto;
     height: 42rem;
     background-color: whitesmoke;
-    margin-bottom: 6rem;
+    margin-bottom: 8rem;
 }
 
 .news-background {
-    background-color: #d6cece;
+    background-color: #b9b3b3;
     height: 31rem;
     width: auto;
 }
@@ -209,7 +209,7 @@ svg:hover {
 .newsbox-one {
     width: 23em;
     height: 23em;
-    background-color: #b8afaf;
+    background-color: #727070;
     margin: 3em 1em 3em 2em;
     position: relative;
     display: inline-block;
@@ -218,7 +218,7 @@ svg:hover {
 .newsbox-two {
     width: 23em;
     height: 23em;
-    background-color: #b8afaf;
+    background-color: #727070;
     margin: 3em 1em 3em 1em;
     position: relative;
     display: inline-block;
@@ -227,7 +227,7 @@ svg:hover {
 .newsbox-three {
     width: 23em;
     height: 23em;
-    background-color: #b8afaf;
+    background-color: #727070;
     margin: 3em 2em 3em 1em;
     position: relative;
     display: inline-block;
@@ -247,6 +247,34 @@ svg:hover {
 #more-news a {
     text-decoration: none;
     color: #000000;
+}
+
+
+/*sponsor banner*/
+
+.section-sponsorbanner {
+    width: auto;
+    height: 8rem;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.section-sponsorbanner h3 {
+    flex-direction: row;
+    display: flex;
+    position: relative;
+    margin: 1.2em 0.5em 1em 0.5em;
+}
+
+.logo-kliks {
+    width: 18em;
+    height: 13em;
+    position: relative;
+    display: flex;
+    margin-top: -2em;
 }
 
 
@@ -452,6 +480,7 @@ textarea {
 
 .container-agenda {
     margin: auto;
+    margin-top: 3em;
     display: inline-block;
     border: 0.125em solid #000000;
     border-radius: 0.5em;
@@ -468,17 +497,18 @@ textarea {
 }
 
 .admin-panel-choicemenu h2 {
-    text-align: center;
+    text-align: auto;
     margin: 1em 0.5em;
 }
 
 .admin-panel-choicemenu h4 {
     text-align: center;
     font-size: 1.3em;
+    margin-bottom: 1em;
 }
 
 .agenda-list {
-    display: inline-block;
+    position: relative;
     margin: auto;
 }
 
@@ -592,3 +622,6 @@ h2 a:hover {
     border-radius: 0.188em;
     text-align: center;
 }
+
+
+/*responsive version*/
