@@ -31,12 +31,6 @@ body {
     margin: 1.125rem;
 }
 
-img {
-    display: block;
-    padding-top: 3em;
-    padding-bottom: 4em;
-}
-
 .topnav {
     background-color: white;
     overflow: hidden;
@@ -122,18 +116,20 @@ ul {
 /* photo's slider*/
 
 .section-foto {
-    display: block, relative;
+    display: inline-block;
     width: auto;
     height: auto;
 }
 
-.main-foto {
-    width: auto;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 12.5rem;
+.carousel-item {
+    height: 630px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 630px;
 }
 
 
@@ -146,6 +142,7 @@ ul {
     border-top: 0.438em #000000 solid;
     border-bottom: 0.438em #000000 solid;
     margin-bottom: 5rem;
+    margin-top: 5em;
     display: flex;
     flex-flow: row;
     justify-content: center;
@@ -270,11 +267,12 @@ svg:hover {
 }
 
 .logo-kliks {
-    width: 18em;
-    height: 13em;
+    width: 16em;
+    height: 9em;
     position: relative;
     display: flex;
-    margin-top: -2em;
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
 
 
@@ -330,13 +328,17 @@ input {
 
 #login-button {
     width: 6.875rem;
-    padding: 0.625em 1.250em;
     border: 0.125em solid #bb1414;
     border-radius: 0.188em;
     color: white;
     background: #bb1414;
     text-transform: uppercase;
     position: relative;
+}
+
+#login-button:hover {
+    background: #e61111;
+    border: 0.125em solid #f70101;
 }
 
 
@@ -447,6 +449,10 @@ textarea {
     margin-bottom: 2em;
 }
 
+#button-corner-right {
+    justify-content: right !important;
+}
+
 #bckg-color {
     background-color: #bb1414;
 }
@@ -457,7 +463,7 @@ textarea {
 .container-center-form {
     display: flex;
     flex-direction: row;
-    margin-bottom: 5em;
+    margin-bottom: 10em;
 }
 
 #titel-form {
@@ -497,7 +503,7 @@ textarea {
 }
 
 .admin-panel-choicemenu h2 {
-    text-align: auto;
+    text-align: center;
     margin: 1em 0.5em;
 }
 
