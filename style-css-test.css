@@ -404,18 +404,25 @@ input {
     margin-top: 3em;
 }
 
-#button-left {
-    float: left;
-    margin-bottom: 2em;
+.note-editor {
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 
-#button-right {
-    float: right;
-    margin-bottom: 2em;
+#button-center {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2em;
 }
 
 #button-corner-right {
-    justify-content: right !important;
+    float: right;
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
 }
 
 #bckg-color {

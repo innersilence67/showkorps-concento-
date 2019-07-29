@@ -1,6 +1,11 @@
-$('#summernote').summernote({
-    height: 1000, // set editor height
-    minHeight: null, // set minimum height of editor
-    maxHeight: null, // set maximum height of editor
-    focus: true // set focus to editable area after initializing summernote
+//Rich Text Editor
+
+$(document).ready(function() {
+    $('#summernote').summernote({
+        height: 400,
+        minHeight: 250,
+        maxHeight: 1000,
+        width: 1000,
+        focus: true
+    });
 });
