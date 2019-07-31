@@ -61,14 +61,14 @@
     }
     
     #boeking {
-        border: 2px solid #bb1414;
-        border-radius: 5px;
+        box-shadow: 0px 0px 2px 2px #bb1414;
+        border-radius: 3px;
     }
     
     .topnav li {
         display: inline-block;
         list-style: outside none none;
-        margin: 1.5em 0.625em;
+        margin: 0.3em 0.625em;
         margin-top: 5.0em;
         padding: 0;
     }
@@ -114,8 +114,8 @@
         position: absolute;
         display: none;
         background-color: transparent;
-        top: -2.5em;
-        margin-left: -3.2em;
+        top: -2.7em;
+        margin-left: -13.3rem;
     }
     
     .subAbout a {
@@ -135,8 +135,8 @@
         position: absolute;
         display: none;
         background-color: transparent;
-        top: -2.5em;
-        margin-left: 27.5rem;
+        top: -2.7em;
+        margin-left: -8.9rem;
     }
     
     .subExtra a {
@@ -175,8 +175,8 @@
         width: auto;
         height: 6.25rem;
         background-color: white;
-        border-top: 0.438em #000000 solid;
-        border-bottom: 0.438em #000000 solid;
+        border-top: 0.3em #000000 solid;
+        border-bottom: 0.3em #000000 solid;
         margin-bottom: 5rem;
         margin-top: 5em;
         display: flex;
