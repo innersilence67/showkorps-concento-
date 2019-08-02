@@ -26,7 +26,7 @@
         position: absolute;
         display: inline-block;
         padding: 0em;
-        margin: 1.125rem;
+        margin: 0.7rem;
     }
     
     .topnav {
@@ -110,7 +110,7 @@
         padding: 0;
     }
     
-    .subAbout {
+    .sub-about {
         position: absolute;
         display: none;
         background-color: transparent;
@@ -118,20 +118,20 @@
         margin-left: -13.3rem;
     }
     
-    .subAbout a {
+    .sub-about a {
         color: #000000;
     }
     
-    .subAbout a:hover {
+    .sub-about a:hover {
         background-color: transparent;
         color: #bb1414;
     }
     
-    .menuAbout:hover>ul {
+    .menu-about:hover>ul {
         display: block;
     }
     
-    .subExtra {
+    .sub-extra {
         position: absolute;
         display: none;
         background-color: transparent;
@@ -143,18 +143,18 @@
         color: #000000;
     }
     
-    .subExtra a:hover {
+    .sub-extra a:hover {
         background-color: transparent;
         color: #bb1414;
     }
     
-    .menuExtra:hover>ul {
+    .menu-extra:hover>ul {
         display: block;
     }
     /* photo's slider*/
     
     .section-foto {
-        display: inline-block;
+        display: block;
         width: auto;
         height: auto;
     }
@@ -172,7 +172,7 @@
     /*banner "volg ons"*/
     
     .banner {
-        width: auto;
+        width: 100%;
         height: 6.25rem;
         background-color: white;
         border-top: 0.3em #000000 solid;
@@ -316,10 +316,8 @@
     .admin-panel {
         background-color: white;
         width: 50rem;
-        margin: 3.125rem auto;
-        padding: 3.4375rem 0 2rem;
-        -webkit-box-shadow: 0 0 0.125em #000000;
-        -moz-box-shadow: 0 0 0.125em #000000;
+        margin: 4.125rem auto;
+        padding: 3.4rem 0 3rem;
         text-align: center;
     }
     
@@ -339,7 +337,7 @@
     }
     
     label {
-        display: block;
+        display: inline-block;
         text-align: center;
         width: 9.375rem;
         padding: 1.250em;
@@ -376,6 +374,7 @@
         font-size: 1.5625rem;
         text-align: center;
         font-weight: 500;
+        margin-bottom: 1em;
     }
     
     .admin-panel-menu ul {
@@ -385,7 +384,7 @@
         background-color: #f8c10e;
         border: 0.090em solid #000000;
         position: relative;
-        margin-bottom: 2em;
+        margin-bottom: 4em;
     }
     
     .admin-panel-menu li a {
@@ -446,7 +445,6 @@
     
     #button-corner-right {
         float: right;
-        margin-top: 3em;
         margin-bottom: 0.5em;
         margin-right: 0.5em;
     }
@@ -458,23 +456,14 @@
     
     .container-center-form {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin-bottom: 10em;
-    }
-    
-    #titel-form {
-        resize: none;
-        margin-bottom: 1em;
-    }
-    
-    #form-left {
-        display: inline-block;
-        margin: auto;
     }
     
     .nieuws-table {
         display: inline-block;
         margin: auto;
+        margin-top: 3em;
     }
     /*admin-panel "agenda"*/
     
@@ -510,6 +499,13 @@
     .agenda-list {
         position: relative;
         margin: auto;
+        margin-bottom: 3em;
+    }
+    
+    .btn-save-center {
+        display: block;
+        margin: auto;
+        margin-left: 10.3em;
     }
     /*admin-panel "contact"*/
     
