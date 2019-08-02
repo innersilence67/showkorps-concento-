@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!--CSS stylesheets-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/../style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote-bs4.css" rel="stylesheet">
+
+    <!--JS-->
+    <script type="text/javascript" src="scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote-bs4.js"></script>
+
+    <title>Showkorps Concento</title>
+</head>
+
+<body>
+
+    <div class="section-container">
+
+        <!--menu nav-->
+        <div class="section-navbar">
+            <nav class="topnav">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="logo" src="logo-concento.jpg" alt="logo concento" href="#logo">
+                    </div>
+                    <div class="col-sm-8">
+                        <ul class="menu-bar-right">
+                            <li class="menu-about"><a href="#over-ons">Over Ons</a>
+                                <ul class="sub-about">
+                                    <li><a href="#geschiedenis">Geschiedenis</a></li>
+                                    <li><a href="#vlog">Vlog</a></li>
+                                    <li><a href="#foto&video">Foto & Video</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#nieuws">Nieuws</a></li>
+                            <li><a href="#agenda">Agenda</a></li>
+                            <li><a href="#boeking-form" id="boeking">Boeking</a></li>
+                            <li><a href="#lidworden">Lid Worden</a></li>
+                            <li class="menu-extra"><a href="#extra">Extra</a>
+                                <ul class="sub-extra">
+                                    <li><a href="#webshop">Webshop</a></li>
+                                    <li><a href="#downloads">Downloads</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+
+        <!--foto slide (carousel)-->
+
+        <div class="section-foto">
+
+            <div id="Foto-slide-concento" class="carousel slide" data-ride="carousel" data-pause="false">
+                <ol class="carousel-indicators">
+                    <li data-target="#Foto-slide-concento" data-slide-to="0" class="active"></li>
+                    <li data-target="#Foto-slide-concento" data-slide-to="1"></li>
+                    <li data-target="#Foto-slide-concento" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="concento-foto's/picture-1600.jpeg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="concento-foto's/picture-1630.jpeg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="concento-foto's/picture-1650.jpg" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#Foto-slide-concento" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#Foto-slide-concento" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <!--banner follow us-->
+        <div class="section-banner">
+            <div class="banner">
+                <div id="follow-us">
+                    <h3>VOLG ONS:</h3>
+                </div>
+                <div class="socialmedia-buttons">
+                    <a href="https://nl-nl.facebook.com/ConcentoBreda/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/></svg></a>
+
+                    <a href="https://www.instagram.com/concento_breda/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849
+            0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98
+            6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162
+            2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795
+            0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg></a>
+
+                    <a href="https://www.youtube.com/channel/UCbr_9D7Jw5I8PJriLV2LRDA" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M4.652 0h1.44l.988 3.702.916-3.702h1.454l-1.665 5.505v3.757h-1.431v-3.757l-1.702-5.505zm6.594 2.373c-1.119 0-1.861.74-1.861 1.835v3.349c0 1.204.629 1.831 1.861 1.831 1.022 0 1.826-.683 1.826-1.831v-3.349c0-1.069-.797-1.835-1.826-1.835zm.531
+            5.127c0 .372-.19.646-.532.646-.351 0-.554-.287-.554-.646v-3.179c0-.374.172-.651.529-.651.39 0 .557.269.557.651v3.179zm4.729-5.07v5.186c-.155.194-.5.512-.747.512-.271 0-.338-.186-.338-.46v-5.238h-1.27v5.71c0 .675.206 1.22.887 1.22.384 0 .918-.2
+            1.468-.853v.754h1.27v-6.831h-1.27zm2.203 13.858c-.448 0-.541.315-.541.763v.659h1.069v-.66c.001-.44-.092-.762-.528-.762zm-4.703.04c-.084.043-.167.109-.25.198v4.055c.099.106.194.182.287.229.197.1.485.107.619-.067.07-.092.105-.241.105-.449v-3.359c0-.22-.043-.386-.129-.5-.147-.193-.42-.214-.632-.107zm4.827-5.195c-2.604-.177-11.066-.177-13.666
+            0-2.814.192-3.146 1.892-3.167 6.367.021 4.467.35 6.175 3.167 6.367 2.6.177 11.062.177 13.666 0 2.814-.192 3.146-1.893 3.167-6.367-.021-4.467-.35-6.175-3.167-6.367zm-12.324 10.686h-1.363v-7.54h-1.41v-1.28h4.182v1.28h-1.41v7.54zm4.846 0h-1.21v-.718c-.223.265-.455.467-.696.605-.652.374-1.547.365-1.547-.955v-5.438h1.209v4.988c0
+            .262.063.438.322.438.236 0 .564-.303.711-.487v-4.939h1.21v6.506zm4.657-1.348c0 .805-.301 1.431-1.106 1.431-.443 0-.812-.162-1.149-.583v.5h-1.221v-8.82h1.221v2.84c.273-.333.644-.608 1.076-.608.886 0 1.18.749 1.18 1.631v3.609zm4.471-1.752h-2.314v1.228c0
+            .488.042.91.528.91.511 0 .541-.344.541-.91v-.452h1.245v.489c0 1.253-.538 2.013-1.813 2.013-1.155 0-1.746-.842-1.746-2.013v-2.921c0-1.129.746-1.914 1.837-1.914 1.161 0 1.721.738 1.721 1.914v1.656z"/>
+                            </svg></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-news">
+            <div id="news-header">
+                <h2>Recente Nieuws</h2>
+            </div>
+            <div class="news-background">
+                <div class="recent-news">
+                    <div class="newsbox-one"></div>
+                    <div class="newsbox-two"></div>
+                    <div class="newsbox-three"></div>
+                </div>
+                <div id="more-news">
+                    <a href="#nieuws">
+                        <p>Meer nieuws</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-sponsorbanner">
+            <div>
+                <h3>Steun Concento en bestel via</h3>
+            </div>
+            <a href="https://www.sponsorkliks.com/products/shops.php?club=9966&cn=nl&ln=nl" target="_blank"><img class="logo-kliks" src="icons social media/sponsorkliks.png" alt="logo sponsorkliks" href="#logo-kliks"></a>
+        </div>
+
+
+        <!--footer-->
+        <footer class="section-footer">
+
+            <div class="footer-container">
+                <div class="footer-info">
+                    <h2>Bezoekadres:</h2>
+                    <p> Markendaalseweg 75 <br> 4811 KB Breda <br> Nederland </p>
+                </div>
+                <div class="footer-post">
+                    <h2>Correspondentieadres:</h2>
+                    <p> Randoord 23 <br> 4824 LG Breda <br> Nederland
+                    </p>
+                </div>
+                <div class="footer-free-space"></div>
+                <div class="footer-divider">
+                    <div class="footer-terms-and-conditions">
+                        <h2><a href="privacy-policy.html">Algemene Voorwaarden</a></h2>
+                        <div id="copyright">@COPYRIGHT SHOWKORPS CONCENTO</div>
+                    </div>
+                    <div class="footer-admin-panel">
+                        <h2 id="panel-button"><a href="admin-panel.html">Admin Panel</a></h2>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>
