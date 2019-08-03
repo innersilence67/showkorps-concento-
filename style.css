@@ -458,6 +458,7 @@ input {
     flex-direction: column;
     margin: auto;
     margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 #button-corner-right {
@@ -476,23 +477,14 @@ input {
 
 .container-center-form {
     display: flex;
-    flex-direction: row;
-    margin-bottom: 10em;
-}
-
-#titel-form {
-    resize: none;
-    margin-bottom: 1em;
-}
-
-#form-left {
-    display: inline-block;
-    margin: auto;
+    flex-direction: column;
+    margin-bottom: 5em;
 }
 
 .nieuws-table {
     display: inline-block;
     margin: auto;
+    margin-top: 2em;
 }
 
 
