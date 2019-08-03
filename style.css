@@ -112,7 +112,7 @@ ul {
     padding: 0;
 }
 
-.subAbout {
+.sub-about {
     position: absolute;
     display: none;
     background-color: transparent;
@@ -120,20 +120,20 @@ ul {
     margin-left: -13.3rem;
 }
 
-.subAbout a {
+.sub-about a {
     color: #000000;
 }
 
-.subAbout a:hover {
+.sub-about a:hover {
     background-color: transparent;
     color: #bb1414;
 }
 
-.menuAbout:hover>ul {
+.menu-about:hover>ul {
     display: block;
 }
 
-.subExtra {
+.sub-extra {
     position: absolute;
     display: none;
     background-color: transparent;
@@ -141,16 +141,16 @@ ul {
     margin-left: -8.9rem;
 }
 
-.subExtra a {
+.sub-extra a {
     color: #000000;
 }
 
-.subExtra a:hover {
+.sub-extra a:hover {
     background-color: transparent;
     color: #bb1414;
 }
 
-.menuExtra:hover>ul {
+.menu-extra:hover>ul {
     display: block;
 }
 
