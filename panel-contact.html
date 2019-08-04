@@ -8,7 +8,16 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <!--CSS stylesheets-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote-bs4.css" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/../style.css">
+
+    <!--Java Script-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote-bs4.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+
     <title>Showkorps Concento</title>
 </head>
 
@@ -72,50 +81,50 @@
                     <div class="container-main-adress">
                         <h4>Bezoekadres</h4>
                         <form>
-                            <div>
+                            <div class="inline-input">
                                 <label for="adress">Adres:</label>
                                 <input type="text" id="adress" name="adres">
                             </div>
-                            <div>
+                            <div class="inline-input">
                                 <label for="postcode">Postcode:</label>
                                 <input type="text" id="postcode" name="evenement">
                             </div>
-                            <div>
+                            <div class="inline-input">
                                 <label for="city">Stad:</label>
                                 <input type="text" id="city" name="city">
                             </div>
-                            <div>
+                            <div class="inline-input">
                                 <label for="country">Land:</label>
                                 <input type="text" id="country" name="country">
                             </div>
-                            <button type="button" class="btn btn-warning btn-primary">Adres wijzigen</button>
+                            <button type="button" class="btn btn-warning btn-primary button-center">Adres wijzigen</button>
                         </form>
                     </div>
 
                     <div class="container-second-adress">
                         <h4>Correspondentieadres</h4>
                         <form>
-                            <div>
+                            <div class="inline-input">
                                 <label for="adress">Adres:</label>
                                 <input type="text" id="adress-form" name="adres">
                             </div>
-                            <div>
+                            <div class="inline-input">
                                 <label for="postcode">Postcode:</label>
                                 <input type="text" id="postcode-form" name="evenement">
                             </div>
-                            <div>
+                            <div class="inline-input">
                                 <label for="city">Stad:</label>
                                 <input type="text" id="city-form" name="city">
                             </div>
-                            <div>
+                            <div class="inline-input">
                                 <label for="country">Land:</label>
                                 <input type="text" id="country-form" name="country">
                             </div>
-                            <button type="button" class="btn btn-warning btn-primary">Adres wijzigen</button>
+                            <button type="button" class="btn btn-warning btn-primary button-center">Adres wijzigen</button>
                         </form>
                     </div>
-
                 </div>
+                <span><button type="button" class="btn btn-dark button-corner-right">Uitloggen</button></span>
             </div>
         </div>
     </div>
@@ -140,7 +149,7 @@
             <div class="footer-divider">
                 <div class="footer-terms-and-conditions">
                     <h2><a href="privacy-policy.html">Algemene Voorwaarden</a></h2>
-                    @COPYRIGHT SHOWKORPS CONCENTO
+                    <div class="copyright">@COPYRIGHT SHOWKORPS CONCENTO</div>
                 </div>
                 <div class="footer-admin-panel">
                     <h2 id="panel-button"><a href="admin-panel.html">Admin Panel</a></h2>

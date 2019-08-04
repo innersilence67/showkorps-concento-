@@ -329,9 +329,7 @@ svg:hover {
     background-color: white;
     width: 50rem;
     margin: 3.125rem auto;
-    padding: 3.4375rem 0 2rem;
-    -webkit-box-shadow: 0 0 0.125em #000000;
-    -moz-box-shadow: 0 0 0.125em #000000;
+    padding: 3.4rem 0 2rem;
     text-align: center;
 }
 
@@ -350,7 +348,7 @@ h1 {
     justify-items: center;
 }
 
-label {
+.login-field label {
     display: block;
     text-align: center;
     width: 9.375rem;
@@ -362,6 +360,7 @@ label {
 
 input {
     margin: 0.625em;
+    display: block;
     padding: 0.313em;
     border: 0.125em solid #000000;
     border-radius: 0.188em;
@@ -387,9 +386,10 @@ input {
 /*admin panel - welkom */
 
 .admin-panel p {
-    font-size: 1.5625rem;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: 500;
+    margin-bottom: 1.5em;
 }
 
 .admin-panel-menu ul {
@@ -424,6 +424,13 @@ input {
     margin-bottom: 10.5em;
 }
 
+#button-right-special {
+    float: right;
+    margin-top: -0.8em;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+}
+
 
 /*admin panel - "over ons"*/
 
@@ -453,7 +460,7 @@ input {
     margin: auto;
 }
 
-#button-center {
+.button-center {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -461,7 +468,7 @@ input {
     margin-bottom: 2em;
 }
 
-#button-corner-right {
+.button-corner-right {
     float: right;
     margin-top: 3em;
     margin-bottom: 0.5em;
@@ -505,7 +512,9 @@ input {
 }
 
 .container-agenda label {
-    display: inline-block;
+    display: block;
+    text-align: center;
+    padding-top: 0.5em;
 }
 
 .admin-panel-choicemenu h2 {
@@ -521,6 +530,15 @@ input {
 
 .agenda-list {
     position: relative;
+    margin: auto;
+}
+
+.inline-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.inline-input input {
     margin: auto;
 }
 
@@ -545,6 +563,23 @@ input {
     display: inline-block;
     border: 0.125em solid #000000;
     border-radius: 0.5em;
+}
+
+.container-main-adress label {
+    display: block;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.inline-input input {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.container-second-adress label {
+    display: block;
+    text-align: center;
+    padding-top: 0.5em;
 }
 
 
